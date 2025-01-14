@@ -1,12 +1,33 @@
-# Mental-Health-Analysis
-Developed a Machine learning project to predict Mental Health Disorders using a dataset of 120 entries and 19 features.
+# Factors influencing Mental health disorder Analysis
+## Project Overview: 
+In the context of increasing awareness and concern regarding mental health issues, there is a need to analyze psychological and behavioral attributes of patients diagnosed with mental disorders. Understanding the correlations between symptoms and behaviors can provide valuable insights into the severity of mental health issues and inform better management strategies.
 
-Created a predictive model to classify disorders based on psychological indicators.
+## Objectives
+The objective of this project was to analyze a dataset containing various attributes related to mental health symptoms and behaviours. The analysis aimed to explore the distribution of symptoms, investigate relationships between different psychological symptoms, and examine how these symptoms correlate with professional diagnoses. Additionally, the project sought to provide actionable insights for potential interventions based on identified symptom clusters.
 
-Imported libraries (pandas, NumPy, Matplotlib, seaborn), loaded dataset, checked for missing values (0 found), converted categorical data to numerical using Label Encoder, and dropped the 'Patient Number' column.
+To achieve these objectives, the following actions were taken:
+### 1.Data Collection:
+A comprehensive dataset was gathered from [insert source, if known], which included various psychological attributes of patients, such as levels of sadness, euphoric states, exhaustion, and more.
+### 2.Data Cleaning and Preprocessing:
+The dataset underwent rigorous cleaning and preprocessing, including:
+•	Handling missing values through imputation or removal.
+•	Converting data types to ensure compatibility for analysis.
+•	Detecting and addressing outliers to maintain data integrity.
+•	Normalizing and standardizing features for comparability.
+•	Creating new features to enhance the analysis.
+### 3.Data Analysis: 
+Using Python and libraries such as pandas, NumPy, Matplotlib, and Seaborn, exploratory data analysis was conducted to:
+•	Assess the frequency and distribution of key symptoms.
+•	Analyze correlations between different symptoms and behaviors.
+•	Investigate the relationship between coping mechanisms and reported psychological symptoms.
+•	Visualize the alignment of symptoms with expert diagnoses.
 
-Split data into training (80%) and testing (20%) sets, utilized Random Forest Classifier to train the model, achieving an accuracy of 87.5%.
+### Result
+The analysis yielded several key findings:
+•	A significant prevalence of symptoms such as sadness and exhaustion was observed, with many patients reporting severe symptoms like suicidal thoughts and nervous breakdowns.
+•	Strong correlations were identified between various symptoms, indicating that patients with mood swings often experienced higher levels of exhaustion and sleep disorders.
+•	Behavioural patterns revealed that coping mechanisms, such as the ability to "Ignore & Move-On," were associated with lower levels of psychological symptoms, while optimism positively influenced concentration and reduced overthinking.
+•	Certain symptoms, particularly suicidal thoughts and nervous breakdowns, were strongly linked to severe professional diagnoses, highlighting their predictive value.
+The project concluded that targeted interventions focusing on symptom clusters could enhance mental health management. Promoting coping strategies that foster optimism and the ability to admit mistakes may lead to better mental health outcomes. These insights can inform mental health professionals and policymakers in developing effective support systems for individuals facing mental health challenges.
 
-Generated a classification report with precision, recall, and F1-score, reporting an overall accuracy of 88%.
 
-Successfully developed a predictive model for classifying mental health disorders, demonstrating high accuracy and reliability.
